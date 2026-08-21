@@ -11,7 +11,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-model = joblib.load("gearbox_failure.pkl")
+model = joblib.load("gearbox_failure_prediction.pkl")
 
 st.title("Gearbox Failure Prediction")
 
